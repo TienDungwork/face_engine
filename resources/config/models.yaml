@@ -1,0 +1,7 @@
+face_quality:
+  weight: weights/mobilenetv2_face_quality_model.pth
+  device: "0"
+
+face_mask:
+  weight: weights/mobilenetv2_mask_cls.pth
+  device: "0"

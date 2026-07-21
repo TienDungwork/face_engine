@@ -1,0 +1,9 @@
+*.env
+*.log
+*.db
+__pycache__/
+*.pyc
+*.pyo
+*.slotbak*
+build/
+weights/

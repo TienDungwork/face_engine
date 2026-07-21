@@ -1,0 +1,6 @@
+insightface:
+  ctx_id: 0
+  device_id: 0
+  det_size: [320, 320]
+  allowed_modules: [detection, recognition]
+

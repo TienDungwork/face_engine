@@ -1,0 +1,14 @@
+services:
+  jetson-face-engine:
+    image: ntiendung/face-engine:v1.1.0-r36.4.3
+    container_name: jetson-face-engine
+    command: /bin/bash -c "source ~/.bashrc && cd /project && python3 -u run.py"
+    runtime: nvidia
+    restart: always
+    network_mode: host
+    volumes:
+      - ./:/project
+    environment:
+      - LD_LIBRARY_PATH=/opt/conda/lib/python3.10/site-packages/torch/lib:/opt/conda/lib
+    env_file:
+      - resources/.env

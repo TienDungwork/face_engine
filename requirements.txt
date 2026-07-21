@@ -1,0 +1,21 @@
+fastapi # for web framework
+pydantic_settings # for settings management
+uvicorn # for ASGI server
+python-multipart # for handling multipart/form-data
+numpy>=1.26.0,<2 # onnxruntime-gpu 1.18 wheels built against NumPy 1.x
+opencv-python # for computer vision tasks
+Pillow # for image processing
+torch>=2.1.0 # for deep learning
+torchvision>=0.16.0 # for image processing
+insightface # for face detection and recognition
+onnxruntime-gpu==1.18.0 # for ONNX runtime with GPU support
+pydantic # for data validation and settings management
+requests # for HTTP requests
+python-jose # for JSON Web Signature (JWS)
+aiohttp==3.9.3 # for async HTTP requests
+slowapi==0.1.8 # for rate limiting
+redis==4.5.4 # for caching
+numexpr==2.8.4 # for efficient numerical operations
+psutil==5.9.8 # for system monitoring and benchmarking
+asyncpg>=0.29.0 # for PostgreSQL (smart_face / smf_face_events)
+psycopg2-binary>=2.9.9
